@@ -157,7 +157,16 @@ p {
     font-size: 40px;
   }
 
+  .top-half {
+    padding-bottom: 0px;
+  }
+
   .sub-heading {
     font-size: 16px;
+  }
+
+  .heading {
+    padding-top: 100px;
+    margin-left: 50px;
   }
 }
