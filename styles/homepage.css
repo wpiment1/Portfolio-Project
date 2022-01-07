@@ -148,34 +148,16 @@ p {
   }
 }
 
-/* @media (max-width: 992px) {
-  h1 {
-    font-size: 80px;
-  }
-  .name {
-  font-size: 60px;
-}
-
-.sub-heading {
-  font-size: 30px;
-}
-} */
-
 @media (max-width: 576px) {
   h1 {
     font-size: 60px;
   }
 
   .name {
-  font-size: 40px;
-}
+    font-size: 40px;
+  }
 
-.sub-heading {
-  font-size: 20px;
-}
-
-/* .navbar-light .navbar-brand {
-    position: fixed;
-    top: 0;
-} */
+  .sub-heading {
+    font-size: 10px;
+  }
 }
