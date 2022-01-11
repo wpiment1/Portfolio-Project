@@ -103,11 +103,11 @@ p {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 80px;
+    font-size: 60px;
   }
 
   .name {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .top-half {
@@ -115,7 +115,7 @@ p {
   }
 
   .sub-heading {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .heading {
