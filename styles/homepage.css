@@ -16,6 +16,14 @@ p {
   font-size: 18px;
 }
 
+footer {
+  font-family: "Lora", serif;
+  background-color: blanchedalmond;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
 .top-half {
   background-color: blanchedalmond;
   padding-bottom: 100px;
@@ -107,8 +115,12 @@ p {
   }
 
   p {
-    margin-top: 50px;
     font-size: 12px;
+    margin-top: 30px;
+  }
+
+  footer {
+    font-size: 14px;
   }
 
   .name {
