@@ -3,7 +3,8 @@
 } */
 
 img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 footer {
@@ -51,6 +52,49 @@ footer {
   transition: all 50ms ease-in-out;
 }
 
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-family: "Lora", serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #f76b8a;
+}
+
+.completed-projects {
+  margin-bottom: 30px;
+}
+
+.project-container {
+  border: solid 1px blanchedalmond;
+  background: blanchedalmond;
+  border-radius: 20px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.project-title {
+  font-family: "Lora", serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #233142;
+  display: block;
+  margin-top: 20px;
+}
+
+p.project-description {
+  display: block;
+  margin-top: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+}
+
+.fakipedia-logo {
+  display: block;
+  margin: 0 auto;
+}
+
 .project-links {
   border: solid 1px #f76b8a;
   background: #f76b8a;
@@ -60,7 +104,6 @@ footer {
   font-size: 16px;
   text-decoration: none;
 }
-
 
 .project-links:hover {
   border: solid 1px #f76b8a;
