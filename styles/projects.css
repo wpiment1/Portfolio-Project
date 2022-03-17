@@ -1,10 +1,15 @@
 /* body{
-    background-color: blanchedalmond;
+    background-color: rgb(255, 235, 204);
 } */
 
 img {
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
 }
 
 footer {
@@ -13,6 +18,41 @@ footer {
   padding: 20px;
   margin-top: 40px;
   text-align: center;
+  /* color: #f76b8a;
+  font-weight: 700; */
+}
+
+a:hover {
+  opacity: 0.8;
+  transition: all 50ms ease-in-out;
+}
+
+.project-description {
+  color: #233142;
+  font-size: 16px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 90px;
+  grid-row-gap: 30px;
+  grid-auto-rows: min-content;
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title {
+  margin: 5px 10px;
+  font-family: "Lora", serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #233142;
 }
 
 .top-half {
@@ -55,61 +95,19 @@ footer {
 .heading {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-family: "Lora", serif;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
   color: #f76b8a;
 }
 
 .completed-projects {
-  margin-bottom: 30px;
+  margin: 0px 20px;
 }
 
-.project-container {
-  border: solid 1px blanchedalmond;
-  background: blanchedalmond;
-  border-radius: 20px;
-  display: block;
-  margin-bottom: 20px;
-}
-
-.project-title {
-  font-family: "Lora", serif;
-  font-size: 20px;
-  font-weight: 500;
-  color: #233142;
-  display: block;
-  margin-top: 20px;
-}
-
-p.project-description {
-  display: block;
-  margin-top: 10px;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-}
-
-.fakipedia-logo {
-  display: block;
-  margin: 0 auto;
-}
-
-.project-links {
-  border: solid 1px #f76b8a;
-  background: #f76b8a;
-  border-radius: 20px;
-  padding: 15px;
-  color: white;
-  font-size: 16px;
-  text-decoration: none;
-}
-
-.project-links:hover {
-  border: solid 1px #f76b8a;
-  background: white;
-  color: #f76b8a;
-  transition: all 50ms ease-in-out;
+.upcoming-projects {
+  margin: 0px 20px;
 }
 
 .social-links {

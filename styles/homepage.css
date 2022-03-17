@@ -1,3 +1,7 @@
+body {
+  background: blanchedalmond;
+}
+
 h1 {
   font-family: "Lora", serif;
   font-size: 100px;
@@ -5,32 +9,20 @@ h1 {
   color: #233142;
 }
 
-img {
-  width: 100%;
-  margin-top: 30px;
-}
-
-p {
-  font-family: "Lora", serif;
-  margin-top: 50px;
-  font-size: 18px;
-}
-
 footer {
   font-family: "Lora", serif;
   background-color: blanchedalmond;
   padding: 20px;
-  margin-top: 40px;
+  margin-top: 30px;
   text-align: center;
 }
 
 .top-half {
   background-color: blanchedalmond;
-  padding-bottom: 100px;
 }
 
 .heading {
-  padding-top: 160px;
+  padding-top: 150px;
   margin-left: 50px;
 }
 
@@ -42,7 +34,7 @@ footer {
 .sub-heading {
   font-family: "Source Sans Pro", sans-serif;
   margin-left: 50px;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
   font-weight: 300;
   font-size: 50px;
   color: #233142;
