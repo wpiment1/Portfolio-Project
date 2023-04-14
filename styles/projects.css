@@ -1,15 +1,11 @@
-/* body{
-    background-color: rgb(255, 235, 204);
-} */
-
-img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
+body {
+  background-color: rgb(255, 235, 204);
 }
 
-a {
-  text-decoration: none;
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 footer {
@@ -22,17 +18,76 @@ footer {
   font-weight: 700; */
 }
 
-a:hover {
-  opacity: 0.8;
-  transition: all 50ms ease-in-out;
+.container {
+  position: relative;
+  padding: 10px 40px 0px 40px;
+}
+
+/* .image {
+  display: block;
+  width: 100%;
+  height: auto;
+} */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 .project-description {
   color: #233142;
   font-size: 16px;
+  text-align: left;
 }
 
-.grid-container {
+.project-title {
+  font-family: "Lora", serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #233142;
+}
+
+.some-page-wrapper {
+  margin: 15px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.column {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+/* .grid-container {
   display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 90px;
@@ -45,15 +100,7 @@ a:hover {
   text-align: center;
   display: flex;
   flex-direction: column;
-}
-
-.project-title {
-  margin: 5px 10px;
-  font-family: "Lora", serif;
-  font-size: 20px;
-  font-weight: 700;
-  color: #233142;
-}
+} */
 
 .top-half {
   background-color: blanchedalmond;
@@ -62,7 +109,7 @@ a:hover {
 }
 
 .navbar {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   width: 100%;
@@ -102,13 +149,13 @@ a:hover {
   color: #f76b8a;
 }
 
-.completed-projects {
+/* .completed-projects {
   margin: 0px 20px;
 }
 
 .upcoming-projects {
   margin: 0px 20px;
-}
+} */
 
 .social-links {
   display: flex;

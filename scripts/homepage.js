@@ -9,6 +9,8 @@ new TypeIt(".type1", {
 
 new TypeIt(".type2", {
   startDelay: 2500,
-  strings: ["an aspiring front-end developer based in new york city"],
+  strings: [
+    "an experienced educator seeking to transition into a new career path",
+  ],
   speed: 50,
 }).go();
