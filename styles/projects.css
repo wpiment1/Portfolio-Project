@@ -100,21 +100,6 @@ button:hover {
   flex: 1;
 }
 
-/* .grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-column-gap: 90px;
-  grid-row-gap: 30px;
-  grid-auto-rows: min-content;
-}
-
-.grid-item {
-  padding: 20px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-} */
-
 .top-half {
   background-color: blanchedalmond;
   padding-bottom: 50px;
@@ -122,11 +107,13 @@ button:hover {
 }
 
 .navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
+  left: 0;
   right: 0;
   width: 100%;
   background-color: blanchedalmond;
+  z-index: 1;
 }
 
 .navbar-light .navbar-brand {
