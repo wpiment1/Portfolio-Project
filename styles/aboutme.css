@@ -91,14 +91,29 @@ footer {
 
 @media (max-width: 576px) {
   p {
-    font-size: 12px;
-    margin-top: 30px;
+    font-size: 14px;
+    margin-top: 80px;
+  }
+
+  img{
+    display: none;
   }
 
   footer {
     font-size: 14px;
   }
+
+  /* .row {
+    display: flex;
+    flex-direction: column-reverse;
+  } */
+
   .top-half {
     padding-bottom: 0px;
   }
+
+  .col-6 {
+    width: 100%;
+  }
+
 }
