@@ -95,14 +95,13 @@ footer {
     margin-top: 80px;
   }
 
-  img{
+  img {
     display: none;
   }
 
   footer {
     font-size: 14px;
   }
-
   /* .row {
     display: flex;
     flex-direction: column-reverse;
@@ -116,4 +115,10 @@ footer {
     width: 100%;
   }
 
+}
+
+@media screen and (max-width: 768px) {
+  .social-links {
+    display: none;
+  }
 }
