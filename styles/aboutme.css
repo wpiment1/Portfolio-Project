@@ -102,10 +102,10 @@ footer {
   footer {
     font-size: 14px;
   }
-  /* .row {
+  .row {
     display: flex;
     flex-direction: column-reverse;
-  } */
+  }
 
   .top-half {
     padding-bottom: 0px;
@@ -114,7 +114,6 @@ footer {
   .col-6 {
     width: 100%;
   }
-
 }
 
 @media screen and (max-width: 768px) {

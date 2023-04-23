@@ -2,13 +2,6 @@ body {
   background-color: rgb(255, 235, 204);
 }
 
-img {
-  display: block;
-  height: 400px;
-  width: 600px;
-  margin: 0 auto;
-}
-
 footer {
   font-family: "Lora", serif;
   background-color: blanchedalmond;
@@ -17,87 +10,6 @@ footer {
   text-align: center;
   /* color: #f76b8a;
   font-weight: 700; */
-}
-
-button {
-  border-radius: 50px; 
-  background-color: #596e79; 
-  color: white; 
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: 500;
-  border:none;
-}
-
-button:hover {
-  background-color: #2c4553;  
-  cursor: pointer;
-  transition: all 50ms ease-in-out;
-}
-
-
-.container {
-  position: relative;
-  padding: 10px 40px 0px 40px;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: rgb(255, 200, 200);
-  border-radius: 50px;
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-.project-description {
-  color: black;
-  font-size: 18px;
-  text-align: center;
-}
-
-.project-title {
-  font-family: "Lora", serif;
-  font-size: 40px;
-  font-weight: 700;
-  color: white;
-}
-
-.some-page-wrapper {
-  margin: 15px;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  margin-bottom: 100px;
-}
-
-.column {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
 }
 
 .top-half {
@@ -139,24 +51,6 @@ button:hover {
   transition: all 50ms ease-in-out;
 }
 
-.heading {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-  font-family: "Lora", serif;
-  font-size: 40px;
-  font-weight: 700;
-  color: #f76b8a;
-}
-
-/* .completed-projects {
-  margin: 0px 20px;
-}
-
-.upcoming-projects {
-  margin: 0px 20px;
-} */
-
 .social-links {
   display: flex;
   justify-content: flex-end;
@@ -185,4 +79,66 @@ button:hover {
 
 .far:hover {
   background-color: #3d8c8c;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project button {
+  background-color: #3383ff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 7px 10px 7px 10px;
+  font-size: 1.05rem;
+  transition: all 0.2s ease-in-out;
+}
+
+/* #66A2FF #99C1FF */
+.project {
+  background-color: #ffd799;
+  border: 1px solid black;
+  border-radius: 40px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  flex-basis: 300px;
+  max-height: auto;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.project-description {
+  padding: 20px 0px 0px 0px;
+}
+
+.project-title {
+  padding: 10px 0px 10px 0px;
+  font-weight: 500;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #085ed6;
+}
+
+@media (max-width: 768px) {
+  .project {
+    flex-basis: 100%;
+  }
+
+  footer {
+    margin-bottom: 40px;
+  }
 }
