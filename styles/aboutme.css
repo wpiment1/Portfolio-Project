@@ -101,6 +101,7 @@ footer {
 
   footer {
     font-size: 14px;
+    margin-bottom: 40px;
   }
   .row {
     display: flex;
@@ -116,8 +117,3 @@ footer {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .social-links {
-    display: none;
-  }
-}
